@@ -84,3 +84,6 @@ class TestDataProcess(unittest.TestCase):
         res = process_log_file(log_file)
         self.assertEqual(res['Total buyers'], 2)
         self.assertEqual(res['ad.theirs1.com'], 1)
+
+if __name__ == "__main__":
+    unittest.main(argv=['first-arg-is-ignored'], exit=False)
