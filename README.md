@@ -1,3 +1,16 @@
+
+Install and run:
+pip install -r requirements.txt
+
+python3 main.py ./data/test.log
+
+Testing:
+python3 unittests.py
+
+
+
+
+
 Условие задания
 
 Пользователи посещают сайт магазина Shop. Они могут приходить из поисковиков (органический трафик), приходить по партнерским ссылкам нескольких кэшбек-сервисов: нашего (Ours) и других (Theirs1, Theirs2). 
